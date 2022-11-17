@@ -9,6 +9,7 @@ const Card = props => {
 
   return (
     <div className='card' onClick={() => props.cardClicked(name)}>
+      <img src={`./images/${name === 'Void Fiend' ? 'Void_Fiend' : name}.webp`} alt={`${name}`}/>
       <p>{name}</p>
     </div>
   );
