@@ -64,7 +64,11 @@ function App() {
 
   return (
     <div className="App">
-      <Scoreboard score={score} highScore={highScore} />
+      <header>
+        <h1>Memory Game</h1>
+        <Scoreboard score={score} highScore={highScore} />
+      </header>
+      <p>Click as many distinct cards as you can!</p>
       <div className='cards'>
         {cards}
       </div>
