@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import './Card.css';
 
 const Card = props => {
   const [name, setName] = useState(props.value.name);

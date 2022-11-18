@@ -1,0 +1,35 @@
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.2rem;
+  color: #EBF2F8;
+}
+
+header {
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 4rem;
+}
+
+.App p {
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.cards {
+  width: 90vw;
+  height: 60%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 2vw;
+}
